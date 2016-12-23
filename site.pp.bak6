@@ -1,0 +1,10 @@
+file
+{ "/etc/yum.repos.d/":
+source => "puppet://server1/repo/",
+group => root,
+owner => root,
+mode => 644,
+recurse => true,
+force => true,
+purge => true
+}

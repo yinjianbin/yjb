@@ -1,0 +1,7 @@
+file
+{ "/etc/crontab":
+source => "puppet://server1/files/crontab",
+group => root,
+owner => root,
+mode => "644"
+}

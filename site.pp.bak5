@@ -1,0 +1,4 @@
+package {
+["screen","ntp","sysstat"]:
+ensure => "installed";
+}

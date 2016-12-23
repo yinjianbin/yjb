@@ -1,0 +1,9 @@
+node default{
+file {"/tmp/andrewy.txt":
+content => "hello,My Name is Andrew.Yu !\n",
+ensure => present,
+mode => 644,
+owner => root,
+group => root,
+}
+}
